@@ -18,7 +18,7 @@ This project utilizes OpenAI's text-to-speech capabilities to convert text into 
 ## Installation
 
 1. Clone the repository:
-   git clone [repository URL]
+   git clone https://github.com/bjoentrepreneur/openai-text-to-speech.git
 2. Navigate to the project directory:
    cd your_project
 3. Install the necessary dependencies:

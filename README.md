@@ -32,11 +32,11 @@ This project utilizes OpenAI's text-to-speech capabilities to convert text into 
 
 ## Usage
 
-1. Run the application:
-   node src/index.js2. Check the `outputs` folder for the generated audio file.
+1. Run the application: `node src/index.js`
+2. Check the `outputs` folder for the generated audio file.
 
 ## Project Structure
-
+```
 your_project/
 │
 ├── src/
@@ -52,10 +52,10 @@ your_project/
 ├── .gitignore
 ├── package.json
 ├── README.md
-
+```
 ## Contributing
 
-Contributions, issues, and feature requests are welcome. Feel free to check [issues page] if you want to contribute.
+Contributions, issues, and feature requests are welcome. Feel free to check [Issues](https://github.com/bjoentrepreneur/openai-text-to-speech/issues) if you want to contribute.
 
 ## License
 
@@ -63,4 +63,4 @@ MIT
 
 ## Contact
 
-Kopply GmbH - hi@mymindfulbreeze.com
+[Björn](https://github.com/bjoentrepreneur)

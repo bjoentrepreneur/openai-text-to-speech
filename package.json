@@ -1,0 +1,17 @@
+{
+  "name": "affirmation-tracks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "openai.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "fs-extra": "^11.2.0",
+    "openai": "^4.20.1"
+  }
+}

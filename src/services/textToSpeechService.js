@@ -12,16 +12,23 @@ function formatFilename(text) {
 }
 
 async function generateSpeech(text) {
-  const filename = formatFilename(text);
-  const speechFile = path.join(outputDirectory, filename);
-  const mp3 = await openai.audio.speech.create({
-    model: "tts-1",
-    voice: "nova",
-    input: text,
-  });
-  const buffer = Buffer.from(await mp3.arrayBuffer());
-  await fs.promises.writeFile(speechFile, buffer);
-  return speechFile;
+  try {
+    const filename = formatFilename(text);
+    const speechFile = path.join(outputDirectory, filename);
+    const mp3 = await openai.audio.speech.create({
+      model: "tts-1",
+      voice: "nova",
+      input: text,
+    });
+    const buffer = Buffer.from(await mp3.arrayBuffer());
+    await fs.promises.writeFile(speechFile, buffer);
+    return speechFile;
+  } catch (error) {
+    // Log error message with the error type
+    console.error(`Error in generateSpeech: [${error.type}] ${error.message}`);
+    // End process
+    process.exit(1);
+  }
 }
 
 module.exports = { generateSpeech };

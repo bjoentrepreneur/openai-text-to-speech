@@ -18,10 +18,12 @@ This project utilizes OpenAI's text-to-speech capabilities to convert text into 
 ## Installation
 
 1. Clone the repository:
-   git clone [repository URL]
-2. Navigate to the project directory:
+ ```bash
+git clone https://github.com/bjoentrepreneur/openai-text-to-speech.git
+```
+3. Navigate to the project directory:
    cd your_project
-3. Install the necessary dependencies:
+4. Install the necessary dependencies:
    npm install
 
 ## Configuration
@@ -32,11 +34,12 @@ This project utilizes OpenAI's text-to-speech capabilities to convert text into 
 
 ## Usage
 
-1. Run the application:
-   node src/index.js2. Check the `outputs` folder for the generated audio file.
+1. Update the [text](https://github.com/bjoentrepreneur/openai-text-to-speech/blob/a5dcb496f7dd843a203b484064b631ccd0fbf464/src/index.js#L5C15-L5C15) to the output you want
+2. Run the application: `node src/index.js`
+3. Check the `outputs` folder for the generated audio file.
 
 ## Project Structure
-
+```
 your_project/
 │
 ├── src/
@@ -52,10 +55,10 @@ your_project/
 ├── .gitignore
 ├── package.json
 ├── README.md
-
+```
 ## Contributing
 
-Contributions, issues, and feature requests are welcome. Feel free to check [issues page] if you want to contribute.
+Contributions, issues, and feature requests are welcome. Feel free to check [Issues](https://github.com/bjoentrepreneur/openai-text-to-speech/issues) if you want to contribute.
 
 ## License
 
@@ -63,4 +66,4 @@ MIT
 
 ## Contact
 
-Kopply GmbH - hi@mymindfulbreeze.com
+[Björn](https://github.com/bjoentrepreneur)

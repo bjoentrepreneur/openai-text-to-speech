@@ -70,13 +70,13 @@ your_project/
 │
 ├── src/
 │ ├── config/
+│ ├── outputs/
 │ │ └── openaiConfig.js
 │ ├── services/
 │ │ └── textToSpeechService.js
 │ ├── utils/
 │ └── index.js
 │
-├── outputs/
 ├── .env
 ├── .gitignore
 ├── package.json

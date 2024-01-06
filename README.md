@@ -36,16 +36,14 @@ git clone https://github.com/bjoentrepreneur/openai-text-to-speech.git
 
 ## Usage
 
-1. Update the [text](https://github.com/bjoentrepreneur/openai-text-to-speech/blob/a5dcb496f7dd843a203b484064b631ccd0fbf464/src/index.js#L5C15-L5C15) to the output you want
-2. Run the application: `node src/index.js`
-3. Check the `outputs` folder for the generated audio file.
-
 Provide the text and optionally the voice for the speech generation:
 
-- Use the `--text` argument to specify the text you want to convert to speech. For example:
+- Use the `--text` argument to specify the text you want to convert to speech. \
+  For example:
   `--text "Your text here"`
-- Optionally, use the `--voice` argument to specify the voice. If not provided, the default voice 'nova' will be used. For example: `--voice nova`
-- Available voices include: alloy, echo, fable, onyx, nova, and shimmer.
+- Optionally, use the `--voice` argument to specify the voice. \
+  If not provided, the default voice 'nova' will be used. For example: `--voice nova` \
+  Available voices include: alloy, echo, fable, onyx, nova, and shimmer.
 
 Run the application with the provided arguments:
 
